@@ -5,7 +5,7 @@ def my_func(**kwargs):
     if isinstance(first_arg, list):
         print "first_arg is a list"
 
-    print "First_arg: ", kwargs.get('first_arg',-1)
+    print "First_arg: "
     print "second_arg: ", kwargs.get('second_arg',-2)
     print "third_arg: ", kwargs.get('third_arg',-3)
     print "fourth_arg: ", kwargs.get('fourth_arg',-4)
@@ -15,7 +15,7 @@ def my_func(**kwargs):
 
     pass
 
-help(my_func)
+help(my_func) # The help function
 
 my_func(first_arg=['a','b','c'],
         second_arg={'x': 3, 'y': 2,'z': 3})
