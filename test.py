@@ -15,5 +15,7 @@ def my_func(**kwargs):
 
     pass
 
+help(my_func)
+
 my_func(first_arg=['a','b','c'],
         second_arg={'x': 3, 'y': 2,'z': 3})
